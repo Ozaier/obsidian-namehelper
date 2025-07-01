@@ -1,0 +1,38 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+.setting-item.highlighter-setting-item:first-child {
+    padding-top: 0px;
+  }
+  
+.nhmark-settings-type {
+    width: 20%;
+    color: var(--text-normal);
+  }
+.nhmark-settings-key,
+.nhmark-settings-value {
+  width: 30%;
+  color: var(--text-normal);
+}
+
+.nhplugin-setting-item {
+display: block;
+}
+  
+.nhhelper-item-draggable {
+    cursor: grab;
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 0.5fr 7fr;
+    align-items: center;
+    border-top: 1px solid var(--background-modifier-border);
+  }
+
+.HighlightrSettingsTabsContainer {
+border-bottom: 1px solid var(--background-modifier-border);
+}
